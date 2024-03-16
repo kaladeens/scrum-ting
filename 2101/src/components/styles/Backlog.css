@@ -1,0 +1,118 @@
+.task-list {
+  border-collapse: collapse;
+  width: 60%;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+}
+
+.task-list-bg {
+  background-color: #fff5d2;
+  padding: 8px;
+  border-radius: '5px';
+}
+
+.sprint-list {
+  border-collapse: collapse;
+  width: 50%;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+}
+
+caption {
+  text-align: left;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+/* Retaining the styles for buttons you provided */
+.button {
+  background-color: #c7170e; 
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 1px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.create-task-button {
+  background-color: #c7170e; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 1px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.table-header {
+    width: 450px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; /* Align elements on opposite sides */
+    align-items: center; /* Center vertically within the header */
+    margin-bottom: 10px; /* Add spacing between the header and the table */
+    padding: 10px 0; /* Add padding for spacing */
+    border-bottom: 1px solid #ccc; /* Optional: Add a border for separation */
+  }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.select-container {
+  display: flex;
+  flex-direction: row; /* Place label and select side by side */
+  align-items: center; /* Center vertically */
+  margin-bottom: 10px;
+}
+
+.label {
+  font-size: 20px; /* Larger font size */
+  margin-left: 10px; /* Add some spacing between label and select */
+}
+
+.select {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px; /* Larger font size */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0px 2px 4px rgba(0, 123, 255, 0.2);
+}
+
+.backlog-container {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sprint-select-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+

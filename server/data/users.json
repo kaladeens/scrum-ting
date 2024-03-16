@@ -1,0 +1,15 @@
+[
+    {
+        "username": "admin",
+        "role": "admin",
+        "password": "admin12345",
+        "user_id": 1
+    },
+    {
+        "username": "1",
+        "role": "user",
+        "sprint_id": 1,
+        "password": "1",
+        "user_id": 2
+    }
+]

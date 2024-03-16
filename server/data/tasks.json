@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Sprint A task 1",
+        "task_type": "Story",
+        "story_points": 5,
+        "description": "",
+        "status": "Not started",
+        "assigned_to": 0,
+        "sprint_id": 1,
+        "task_id": 1,
+        "time_spent": 0
+    },
+    {
+        "name": "Backlog task 1",
+        "task_type": "Story",
+        "story_points": 5,
+        "description": "This is a test task for the product backlog",
+        "status": "Not started",
+        "assigned_to": 0,
+        "sprint_id": 0,
+        "task_id": 2
+    },
+    {
+        "name": "Backlog task 2",
+        "task_type": "Story",
+        "story_points": 5,
+        "description": "A second test task for the product backlog",
+        "status": "Not started",
+        "assigned_to": 0,
+        "sprint_id": 0,
+        "task_id": 3
+    }
+]

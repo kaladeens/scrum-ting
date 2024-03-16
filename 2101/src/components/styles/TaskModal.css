@@ -1,0 +1,148 @@
+/* nice dropdown box */
+
+.taskmodal {
+    font-family: "Roboto", sans-serif;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.modal-content {
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    align-items: center; /* Center content vertically */
+}
+
+.form-group-left {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 5px;
+}
+
+.form-group-right {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 5px;
+}
+
+/* Other styles... */
+
+/* Add this style to evenly space the input fields */
+.modal-content > div {
+    margin: 10px 0;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Add this style to center the buttons */
+.modal-content > div.button-group {
+    justify-content: center;
+}
+
+/* Button style... */
+
+/* Add this style for labels */
+.modal-content label {
+    flex-basis: 30%; /* Adjust this as needed */
+    text-align: right;
+    margin-right: 10px;
+}
+
+.modal-content input[type="text"],
+.modal-content input[type="number"],
+.modal-content select,
+.modal-content textarea {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #000000;
+    width: auto;   /* Changed from 100% */
+    border: 1px solid #000000;
+    padding: 8px 16px;   /* Adjusted padding for size */
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;   /* Added margin for spacing */
+}
+
+.description {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    height: 80px;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #000000;  /* Black color for the "X" */
+    background-color: #f2f2f2;  /* Light gray background for the button */
+    font-size: 14px;  /* Adjusted font size */
+    cursor: pointer;
+    border: 1px solid #ccc;  /* Border for definition */
+    padding: 0;  /* No padding */
+    width: 25px;  /* Set a specific width */
+    height: 25px;  /* Set a specific height */
+    text-align: center;  /* Center the "X" character horizontally */
+    line-height: 25px;  /* Matching the height to vertically center the "X" */
+    outline: none;
+    border-radius: 50%;  /* Circular button */
+    transition: background-color 0.2s;  /* Smooth transition effect */
+    display: flex;  /* Flexbox to help with centering */
+    justify-content: center;  /* Center content horizontally */
+    align-items: center;  /* Center content vertically */
+    box-sizing: border-box;
+}
+
+.close-button:hover {
+    background-color: #e0e0e0;  /* Slightly darker shade on hover */
+}
+
+
+
+
+.button:hover,
+.form button:active,
+.form button:focus {
+    background: #000000;
+}
+
+  

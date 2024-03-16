@@ -1,0 +1,17 @@
+.task-box {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    width: 300px;
+    min-height: 50px;
+}
+
+.task-content {
+    padding: 4px 8px;
+    justify-content: left;
+    display: flex;
+}
+
+.description-style  {
+    display: 'flex';
+    align-items: 'center'; 
+};

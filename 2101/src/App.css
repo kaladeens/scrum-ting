@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Tetris Block";
+  src: 
+       url("./fonts/Tetris_Block/tetris_block.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.homepage {
+  padding: 20px;
+  text-align: center;
+
+}
+
+img {
+  width: 300px;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+h1 {
+  font-family: "Tetris Block", sans-serif;  /* Fallback to sans-serif if the Tetris font fails to load */
+  color: #0026a4;
+}
+.user-info {
+  margin-top: 20px;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.popup button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.popup button:hover {
+  background-color: #0056b3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 8px 12px;
+  border: 1px solid #e2e8f0;
+  text-align: left;
+}
+
+th {
+  background-color: #edf2f7;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f7fafc;
+}
+
+
+
+
